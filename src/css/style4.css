@@ -18,8 +18,7 @@ header {
     background-color: rgb(7, 30, 6);
 }
 
-    a 
-    {
+a {
     text-decoration: none;
 }
 
@@ -31,6 +30,13 @@ a:hover {
     color: rgb(255, 255, 255);
     text-shadow: rgb(5, 5, 5) 0 0 10px;
     font-family: "Permanent Marker";
+}
+
+.low {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(5, 5, 5) 0 0 10px;
+    font-family: "Permanent Marker";
+    display: none;
 }
 
 
@@ -97,14 +103,14 @@ a:hover {
     margin-left: 80px;
     width: 55%;
     height: 45%;
-    filter: drop-shadow(0 0 20px  rgba(32, 163, 113, 0.605));
+    filter: drop-shadow(0 0 20px rgba(32, 163, 113, 0.605));
 }
 
 iframe {
     width: 60%;
     height: 35%;
     margin-left: 60px;
-    box-shadow: rgba(16, 227, 100, 0.504) 0 0 20px 0px ;
+    box-shadow: rgba(16, 227, 100, 0.504) 0 0 20px 0px;
 }
 
 /* LADO DIREITO */
@@ -114,4 +120,46 @@ iframe {
 .verde {
     color: green;
     text-shadow: green 0 0 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .left {
+        display: none;
+    }
+
+    .rigth {
+        width: 100vw;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    .corpo {
+        margin: 50px 0 0;
+        width: 50%;
+        height: 30%;
+        max-width: 187px;
+        max-height: 170px;
+    }
+
+    iframe {
+        margin-left: 0;
+        height: 27%;
+        width: 80%;
+        max-width: 300px;
+        max-height: 153px;
+    }
+
+    a {
+        display: none;
+    }
+
+    .low {
+        display: block;
+    }
+
+    header {
+        justify-content: center;
+    }
+
 }

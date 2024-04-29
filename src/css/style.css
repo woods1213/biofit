@@ -4,12 +4,13 @@ body {
     box-sizing: border-box;
     color: aliceblue;
     margin: 0;
-    background-size: cover ;
-    
+    background-size: cover;
+
 }
 
-html {font-weight: 500;
-    font-family: sans-serif;    
+html {
+    font-weight: 500;
+    font-family: sans-serif;
 }
 
 .main {
@@ -49,7 +50,7 @@ input {
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.685);
     border-radius: 8px;
-    border: none ;
+    border: none;
     margin: 8px;
     width: 90%;
     height: 35px;

@@ -89,7 +89,7 @@ body {
 }
 
 .dropdown-menu a:hover {
-  
+
    background-color: rgba(36, 199, 58, 0.307);
    display: block;
 }
@@ -103,10 +103,17 @@ body {
       padding: 16px;
       flex-direction: column;
    }
-   hr {display: none;}
 
-   .voltar {display: none;}
+   hr {
+      display: none;
+   }
 
-   .menu ul {display: flex;
-   flex-direction: column}
+   .voltar {
+      display: none;
+   }
+
+   .menu ul {
+      display: flex;
+      flex-direction: column
+   }
 }
