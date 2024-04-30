@@ -116,4 +116,13 @@ body {
       display: flex;
       flex-direction: column
    }
+
+   .dropdown:hover .dropdown-menu {
+      display: flex;
+   }
+
+
+.dropdown-menu {
+   position: relative;
+   flex-direction: column;
 }
