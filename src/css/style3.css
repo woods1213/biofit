@@ -126,3 +126,9 @@ body {
    position: relative;
    flex-direction: column;
 }
+
+.menu ul {
+   padding: 0;
+}
+
+}
